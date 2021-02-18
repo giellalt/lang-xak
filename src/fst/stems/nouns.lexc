@@ -1,8 +1,1 @@
-!! Nouns
-!  -----
-!! Nouns in the Maku language are things.
-
 LEXICON Nouns
-noun    Cases   ;
-
-! vim: set ft=xfst-lexc:

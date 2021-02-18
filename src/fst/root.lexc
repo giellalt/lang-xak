@@ -1,149 +1,131 @@
-! Divvun & Giellatekno - open source grammars for Maku language
-! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
-! http://giellatekno.uit.no & http://divvun.no
-!
-! This program is free software; you can redistribute and/or modify
-! this file under the terms of the GNU General Public License as published by
-! the Free Software Foundation, either version 3 of the License, or
-! (at your option) any later version. The GNU General Public License
-! is found at http://www.gnu.org/licenses/gpl.html. It is
-! also available in the file $GTHOME/LICENSE.txt.
-!
-! Other licensing options are available upon request, please contact
-! giellatekno@uit.no or feedback@divvun.no
+Multichar_Symbols
 
-! ========================================================================== !
-! !!            !!!Maku morphological analyser                      !
-! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Maku LANGUAGE.
- 
+! POS
+!!! Does feminine go here? It was in italics in the grammar, but not masculine
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
-
-!! !!Analysis symbols
-!  ----------------
-!! The morphological analyses of wordforms for the Maku
-!! language are presented in this system in terms of the following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
-
-!! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
-
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
-!! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
-
-!! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
-
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
-!! The comparative forms are:
- +Comp +Superl
-!! Numerals are classified under:
- +Attr +Card
- +Ord 
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
-
-! Abbreviated words are classified with:
- +ABBR +ACR 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
-
-!! Question and Focus particles:
- +Qst +Foc
++NOUN !Noun
++VERB !Verb
++ADJ ! Adjective
++ADV ! Adverb
++INTJ ! Interjection
++PRON ! Pronoun
 
 
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+! ASPECT
++Hab ! Habitual
++Inch ! Inchoative - Beginning of a state ('start running')
++Prog ! Progressive
 
 
-!! Derivations are classified under the morphophonetic form of the suffix, the
-!! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
+! CASE
+
++Abl ! Ablative - Direction ('off of')
++Com ! Comitative
++Dat ! Dative
++Ela ! Elative - Direction ('out of')
++Ine ! Inessive - Direction ('in')
++Ins ! Instrumental - ('by means of (instrument)')
++Lat ! Lative - Movement towards/to/into/onto something (ex. turns 'low' to 'down')
++Loc ! Locative
++Tem ! Temporal
++Term ! Terminative - Something ends in space or time ('until 6pm', 'up to the house')
 
 
-!! Morphophonology
-!  ---------------
-!! To represent phonologic variations in word forms we use the following
-!! symbols in the lexicon files:
- {aä} {oö} {uü}
+! CLUSIVITY
 
-!! And following triggers to control variation
- {front} {back}
++Ex ! Exclusive
++In ! Inclusive
 
-!! !!Flag diacritics
-!! We have manually optimised the structure of our lexicon using following
-!! flag diacritics to restrict morhpological combinatorics - only allow compounds
-!! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
-!! For languages that allow compounding, the following flag diacritics are needed
-!! to control position-based compounding restrictions for nominals. Their use is
-!! handled automatically if combined with +CmpN/xxx tags. If not used, they will
-!! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
-!! Use the following flag diacritics to control downcasing of derived proper
-!! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-!! these flags. There exists a ready-made regex that will do the actual down-casing
-!! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
+! EVIDENTIALITY
+
++Fh ! Firsthand
++Nfh ! Non-firsthand
+
+
+! GENDER
+
++Fem ! Feminine
++Masc ! Masculine
+
+
+! MOOD
+
++Cnd ! Conditional
++Des ! Desiderative ('He wants to')
++Imp ! Imperative
+
+
+! NUMBER
+
++Coll ! Collective
++Plur ! Plural
++Sing ! Singular
+
+
+! PERSON
+
++1 ! First person
++2 ! Second person
++3 ! Third person
+
+
+! PRONOMINAL TYPE
+
++Dem ! Demonstrative
+
+
+! TENSE
+
++Fut ! Future
++Past ! Past
++Pres ! Present
+
+
+! UNKNOWN?
+
+! +Approx - approximative
+! +Circum - circumventing motion
+! +Clf - classifier
+! +Conn - connective
+! +Dim - diminutive (degree?)
+! +Dist - distant (tense?)
+! +E - extension to core
+! +Foc - focus
+! +Hort - hortative (mood?)
+! +Imp - imperfective (tense or aspect?)
+! +Intr - intransitive
+! +Io - indirect object
+! +Lim - limiter
+! +Near - near (tense?)
+! +Neg - negative (pronominal type?)
+! +Nhab - non-habitual (tense?)
+! +Nmlz - nominalizer
+! +Nom - nominal
+! +Obj - direct object (not accusative?)
+! +Perm - permanent
+! +Perf - perfective (aspect?)
+! +Pos - positive degree or polarity?
+! +Postp - postposition
+! +Pro-form - pronominal element
+! +Purp? - purposive case or mood?
+! +Quant - quantifier (determiner or number?)
+! +Reas - reason
+! +Rcp - reciprocal pronominal or voice?
+! +Rec - recent (tense?)
+! +Red - reduplication (just a morphological process or something else?)
+! +Reflex - reflexive (does it go by itself or with pronouns?) also Boolean value
+! +S - intransitive subject
+! +Sap - speech-act-participant
+! +Val - valency
+! +Wh - constituent question
+
 
 LEXICON Root
-!! The word forms in Maku language start from the lexeme roots of basic
-!! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
-    Punctuation ;
-    Symbols     ;
 
-! vim: set ft=xfst-lexc:
+  Nouns ;
+  Verbs ;
+  Adjectives ;
+  Adverbs ;
+  Interjections ;
+  Pronouns ;

@@ -1,8 +1,1 @@
-!! Adjectives
-!  ----------
-!! Adjectives in the Maku language describe things.
-
 LEXICON Adjectives
-adjective    Comparisons   ;
-
-! vim: set ft=xfst-lexc:
