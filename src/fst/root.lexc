@@ -1,7 +1,11 @@
 Multichar_Symbols
 
 ! POS
+<<<<<<< HEAD
 !!! Does feminine go here? It was in italics in the grammar, but not masculine.
+=======
+!!! Does feminine go here? It was in italics in the grammar, but not masculine
+>>>>>>> 88b3c352d7ad698bb23456388e00d09166ac40c0
 
 +NOUN !Noun
 +VERB !Verb
@@ -12,7 +16,10 @@ Multichar_Symbols
 
 
 ! ASPECT
+<<<<<<< HEAD
 
+=======
+>>>>>>> 88b3c352d7ad698bb23456388e00d09166ac40c0
 +Hab ! Habitual
 +Inch ! Inchoative - Beginning of a state ('start running')
 +Prog ! Progressive
@@ -129,4 +136,8 @@ LEXICON Root
   Adjectives ;
   Adverbs ;
   Interjections ;
+<<<<<<< HEAD
   Pronouns ;
+=======
+  Pronouns ;
+>>>>>>> 88b3c352d7ad698bb23456388e00d09166ac40c0
