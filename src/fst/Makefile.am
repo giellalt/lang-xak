@@ -25,11 +25,11 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-			 affixes/adjectives.lexc  \
-			 affixes/nouns.lexc       \
-			 affixes/propernouns.lexc \
-			 affixes/symbols.lexc     \
-			 affixes/verbs.lexc       \
+			#  affixes/adjectives.lexc  \
+			#  affixes/nouns.lexc       \
+			#  affixes/propernouns.lexc \
+			#  affixes/symbols.lexc     \
+			#  affixes/verbs.lexc       \
 			 stems/adjectives.lexc    \
 			 stems/adverbs.lexc		  \
 			 stems/interjections.lexc \
