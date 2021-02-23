@@ -2,7 +2,6 @@ Multichar_Symbols
 
 ! POS
 !!! Does feminine go here? It was in italics in the grammar, but not masculine.
-
 +NOUN ! Noun
 +VERB ! Verb
 +ADJ ! Adjective
@@ -11,14 +10,9 @@ Multichar_Symbols
 +PRON ! Pronoun
 
 
-! ASPECT
-+Hab ! Habitual
-+Inch ! Inchoative - Beginning of a state ('start running')
-+Prog ! Progressive
-
+!                                      NOUN FEATURES
 
 ! CASE
-
 +Abl ! Ablative - Direction ('off of')
 +Com ! Comitative
 +Dat ! Dative
@@ -30,59 +24,57 @@ Multichar_Symbols
 +Tem ! Temporal
 +Term ! Terminative - Something ends in space or time ('until 6pm', 'up to the house')
 
-
-! CLUSIVITY
-
-+Ex ! Exclusive
-+In ! Inclusive
-
-
-! EVIDENTIALITY
-
-+Fh ! Firsthand
-+Nfh ! Non-firsthand
-
-
-! GENDER
-
-+Fem ! Feminine
-+Masc ! Masculine
-
-
-! MOOD
-
-+Cnd ! Conditional
-+Des ! Desiderative ('He wants to')
-+Imp ! Imperative
-
-
 ! NUMBER
-
 +Coll ! Collective
 +Plur ! Plural
 +Sing ! Singular
 
+! CLUSIVITY
++Ex ! Exclusive
++In ! Inclusive
 
-! PERSON
-
-+1 ! First person
-+2 ! Second person
-+3 ! Third person
+! GENDER
++Fem ! Feminine
++Masc ! Masculine
 
 
-! PRONOMINAL TYPE
+!                                      VERB FEATURES
 
-+Dem ! Demonstrative
+! ASPECT
++Hab ! Habitual
++Inch ! Inchoative - Beginning of a state ('start running')
++Prog ! Progressive
 
+! EVIDENTIALITY
++Fh ! Firsthand
++Nfh ! Non-firsthand
+
+! MOOD
++Cnd ! Conditional
++Des ! Desiderative ('He wants to')
++Imp ! Imperative
 
 ! TENSE
-
 +Fut ! Future
 +Past ! Past
 +Pres ! Present
 
 
-! UNKNOWN?
+!                                      UNSURE FEATURES
+
+! PERSON
++1 ! First person
++2 ! Second person
++3 ! Third person
+
+! PRONOMINAL TYPE
++Dem ! Demonstrative
+
+
+
+
+
+!                                      UNKNOWN FEATURES
 
 ! +Approx - approximative
 ! +Circum - circumventing motion
