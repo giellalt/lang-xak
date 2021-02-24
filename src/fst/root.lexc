@@ -9,6 +9,11 @@ Multichar_Symbols
 +ADV ! Adverb
 +INTJ ! Interjection
 +PRON ! Pronoun
++CONJ ! Conjunction
++POSTP ! Postposition
++QUANT ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
++IDEO ! Ideophone
++PART ! Particle
 
 
 
@@ -92,13 +97,9 @@ Multichar_Symbols
 
 
 ! UNINFLECTED PARTICLES
-
 ! PRONOMINAL TYPE
 +Dem ! Demonstrative (can't take bound morphemes, but can only take case suffixes)
 +Ipro ! Interrogative pronoun (who, what, when, where, why)
-
-! QUANTIFIER
-+Quant ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
 
 
 
@@ -107,7 +108,6 @@ Multichar_Symbols
 +Foc ! Focus (places emphasis on something. In English it's with tone and represented by italics)
 +Io ! Indirect object (different perspective than extension to core)
 +Obj ! Direct object (what a noun becomes if it has the accusative case affixed to it)
-+Postp ! Postposition
 
 
 
