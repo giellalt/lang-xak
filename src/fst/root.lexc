@@ -117,12 +117,19 @@ Multichar_Symbols
 +Neg ! Negative
 +Nmlz ! Nominalizer (derivation, turns verbs to nouns)
 
+! Punctuation
++CLB
++Err/Orth
++LEFT
++PUNCT
++RIGHT
+
 
 LEXICON Root
-
-  Nouns ;
-  Verbs ;
-  Adjectives ;
-  Adverbs ;
-  Interjections ;
-  Pronouns ;
+test # ;
+! Nouns ;
+! Verbs ;
+! Adjectives ;
+! Adverbs ;
+! Interjections ;
+! Pronouns ;
