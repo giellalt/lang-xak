@@ -1,7 +1,8 @@
 Multichar_Symbols
 
+!Maybe just start with particles
+
 ! POS
-!!! Does feminine go here? It was in italics in the grammar, but not masculine.
 +NOUN ! Noun
 +VERB ! Verb
 +ADJ ! Adjective
@@ -10,7 +11,6 @@ Multichar_Symbols
 +PRON ! Pronoun
 
 
-!                                      NOUN FEATURES
 
 ! CASE
 +Abl ! Ablative - Direction ('off of')
@@ -37,13 +37,24 @@ Multichar_Symbols
 +Fem ! Feminine
 +Masc ! Masculine
 
+! DIMINUTIVE
++Dim ! Diminutive
 
-!                                      VERB FEATURES
+! CLASSIFIER
++Clf ! Classifier (lexical classification of nouns based on their properties)
+
+
 
 ! ASPECT
 +Hab ! Habitual
 +Inch ! Inchoative - Beginning of a state ('start running')
 +Prog ! Progressive
++Perf ! Perfective
++Imp  ! Imperfective
++Nhab ! Non-habitual
++Perm ! Permanent (entering the permanent state of something)
++Purp ! Purposive (doing something on purpose 'I bought the cookies SO THE DOG WOULD EAT THEM')
++Reas ! Reason
 
 ! EVIDENTIALITY
 +Fh ! Firsthand
@@ -53,64 +64,58 @@ Multichar_Symbols
 +Cnd ! Conditional
 +Des ! Desiderative ('He wants to')
 +Imp ! Imperative
++Hort ! Hortative (similar to imperative, meaning 'let's' or 'you should')
 
 ! TENSE
 +Fut ! Future
 +Past ! Past
 +Pres ! Present
-
-
-!                                      UNSURE FEATURES
++Dist ! Distant
++Near ! Near
 
 ! PERSON
 +1 ! First person
 +2 ! Second person
 +3 ! Third person
 
+! TRANSITIVITY
++Trans ! Transitive
++Intr ! Intransitive
+
+! CIRCUMVENTION
++Circum ! Circumventing motion (literally 'meandering around')
+
+! REFLEXIVE/RECIPROCAL
++Rcp ! Reciprocal (similar to reflexive, but with another person. 'we see EACH OTHER')
++Reflex ! Reflexive
+
+
+
+! UNINFLECTED PARTICLES
+
 ! PRONOMINAL TYPE
-+Dem ! Demonstrative
++Dem ! Demonstrative (can't take bound morphemes, but can only take case suffixes)
++Ipro ! Interrogative pronoun (who, what, when, where, why)
+
+! QUANTIFIER
++Quant ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
 
 
 
+! SYNTACTIC FUNCTIONS
++E ! Extension to core (indirect object)
++Foc ! Focus (places emphasis on something. In English it's with tone and represented by italics)
++Io ! Indirect object (different perspective than extension to core)
++Obj ! Direct object (what a noun becomes if it has the accusative case affixed to it)
++Postp ! Postposition
 
 
-!                                      UNKNOWN FEATURES
 
-! +Approx - approximative
-! +Circum - circumventing motion
-! +Clf - classifier
-! +Conn - connective
-! +Dim - diminutive (degree?)
-! +Dist - distant (tense?)
-! +E - extension to core
-! +Foc - focus
-! +Hort - hortative (mood?)
-! +Imp - imperfective (tense or aspect?)
-! +Intr - intransitive
-! +Io - indirect object
-! +Lim - limiter
-! +Near - near (tense?)
-! +Neg - negative (pronominal type?)
-! +Nhab - non-habitual (tense?)
-! +Nmlz - nominalizer
-! +Nom - nominal
-! +Obj - direct object (not accusative?)
-! +Perm - permanent
-! +Perf - perfective (aspect?)
-! +Pos - positive degree or polarity?
-! +Postp - postposition
-! +Pro-form - pronominal element
-! +Purp? - purposive case or mood?
-! +Quant - quantifier (determiner or number?)
-! +Reas - reason
-! +Rcp - reciprocal pronominal or voice?
-! +Rec - recent (tense?)
-! +Red - reduplication (just a morphological process or something else?)
-! +Reflex - reflexive (does it go by itself or with pronouns?) also Boolean value
-! +S - intransitive subject
-! +Sap - speech-act-participant
-! +Val - valency
-! +Wh - constituent question
+! MISCELLANEOUS FEATURES
++Approx ! Approximative (means 'almost'), goes with nouns and stative verbs like "be" section 3.5 to find stative verbs
++Lim ! Limiter
++Neg ! Negative
++Nmlz ! Nominalizer (derivation, turns verbs to nouns)
 
 
 LEXICON Root
