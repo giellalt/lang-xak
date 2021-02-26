@@ -1,19 +1,18 @@
 Multichar_Symbols
 
-!Maybe just start with particles
 
 ! POS
-+NOUN ! Noun
-+VERB ! Verb
-+ADJ ! Adjective
-+ADV ! Adverb
-+INTJ ! Interjection
-+PRON ! Pronoun
-+CONJ ! Conjunction
-+POSTP ! Postposition
-+QUANT ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
-+IDEO ! Ideophone
-+PART ! Particle
++N ! Noun
++V ! Verb
++A ! Adjective
++Adv ! Adverb
++Interj ! Interjection
++Pron ! Pronoun
++CC ! Conjunction
++Postp ! Postposition
++Quant ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
++Ideo ! Ideophone
++Pcle ! Particle
 
 
 
@@ -31,8 +30,8 @@ Multichar_Symbols
 
 ! NUMBER
 +Coll ! Collective
-+Plur ! Plural
-+Sing ! Singular
++Pl ! Plural
++Sg ! Singular
 
 ! CLUSIVITY
 +Ex ! Exclusive
@@ -117,19 +116,20 @@ Multichar_Symbols
 +Neg ! Negative
 +Nmlz ! Nominalizer (derivation, turns verbs to nouns)
 
-! Punctuation
-+CLB
-+Err/Orth
-+LEFT
-+PUNCT
-+RIGHT
+
+! FLAG DIACRITICS
+
+@U.POSS.ALIEN@
+@U.POSS.INALIEN@
+@U.PERSON.1@
+@U.PERSON.2@
+@U.PERSON.3@
+@U.NUM.SG@
+@U.NUM.NONSG@
+@U.CLUS.INCLUSIVE@
+@U.CLUS.EXCLUSIVE@
+
 
 
 LEXICON Root
-test # ;
-! Nouns ;
-! Verbs ;
-! Adjectives ;
-! Adverbs ;
-! Interjections ;
-! Pronouns ;
+Prefixes ;
