@@ -1,30 +1,30 @@
 Multichar_Symbols
 
 ! POS
-+N ! Noun
-+V ! Verb
-+A ! Adjective
-+Adv ! Adverb
++A      ! Adjective
++Adv    ! Adverb
++CC     ! Conjunction
++Ideo   ! Ideophone
 +Interj ! Interjection
-+Pron ! Pronoun
-+CC ! Conjunction
-+Postp ! Postposition
-+Quant ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
-+Ideo ! Ideophone
-+Pcle ! Particle
++N      ! Noun
++Pcle   ! Particle
++Postp  ! Postposition
++Pron   ! Pronoun
++Quant  ! Quantifier (determiner or number. 'some, any, all, every, 1, 2, 3)
++V      ! Verb
 
 !*************************************  NOUNS  ******************************************
 
 ! CASE
-+Abl ! Ablative - Direction ('off of')
-+Com ! Comitative
-+Dat ! Dative
-+Ela ! Elative - Direction ('out of')
-+Ine ! Inessive - Direction ('in')
-+Ins ! Instrumental - ('by means of (instrument)')
-+Lat ! Lative - Movement towards/to/into/onto something (ex. turns 'low' to 'down')
-+Loc ! Locative
-+Tem ! Temporal
++Abl  ! Ablative - Direction ('off of')
++Com  ! Comitative
++Dat  ! Dative
++Ela  ! Elative - Direction ('out of')
++Ine  ! Inessive - Direction ('in')
++Ins  ! Instrumental - ('by means of (instrument)')
++Lat  ! Lative - Movement towards/to/into/onto something (ex. turns 'low' to 'down')
++Loc  ! Locative
++Tem  ! Temporal
 +Term ! Terminative - Something ends in space or time ('until 6pm', 'up to the house')
 
 ! NUMBER
@@ -33,74 +33,70 @@ Multichar_Symbols
 ! CLUSIVITY
 +Ex +In ! Exclusive, Inclusive
 
-! GENDER
-+Fem +Masc ! Feminine, Masculine
-
 ! DIMINUTIVE
 +Dim ! Diminutive
+
+! GENDER
++Fem +Masc ! Feminine, Masculine
 
 ! CLASSIFIER
 +Clf ! Classifier (lexical classification of nouns based on their properties)
 
 !*************************************  VERBS  ******************************************
 
-! ASPECT
-+Hab +Nhab ! Habitual, Non-habitual
-+Inch ! Inchoative - Beginning of a state ('start running')
-+Prog ! Progressive
-+Perf +Imp ! Perfective, Imperfective
-+Perm ! Permanent (entering the permanent state of something)
-+Purp ! Purposive (doing something on purpose 'I bought the cookies SO THE DOG WOULD EAT THEM')
-+Reas ! Reason
-
-! EVIDENTIALITY
-+Fh ! Firsthand
-+Nfh ! Non-firsthand
-
-! MOOD
-+Cnd ! Conditional
-+Des ! Desiderative ('He wants to')
-+Imp ! Imperative
-+Hort ! Hortative (similar to imperative, meaning 'let's' or 'you should')
-
 ! TENSE
 +Past +Pres +Fut ! Past, Present, Future
-+Near +Dist ! Near, Distant
++Near +Dist      ! Near, Distant
+
+! ASPECT
++Hab +Nhab ! Habitual, Non-habitual
++Inch      ! Inchoative - Beginning of a state ('start running')
++Prog      ! Progressive
++Perf +Imp ! Perfective, Imperfective
++Perm      ! Permanent (entering the permanent state of something)
++Purp      ! Purposive (doing something on purpose 'I bought the cookies SO THE DOG WOULD EAT THEM')
++Reas      ! Reason
+
+! MOOD
++Cnd  ! Conditional
++Des  ! Desiderative ('He wants to')
++Imp  ! Imperative
++Hort ! Hortative (similar to imperative, meaning 'let's' or 'you should')
 
 ! PERSON
-+1 +2 +3! First person, Second person, Third person
++1 +2 +3 ! First person, Second person, Third person
 
-! TRANSITIVITY
-+Trans +Intr ! Transitive, Intransitive
+! EVIDENTIALITY
++Fh  ! Firsthand
++Nfh ! Non-firsthand
 
 ! CIRCUMVENTION
 +Circum ! Circumventing motion (literally 'meandering around')
 
 ! REFLEXIVE/RECIPROCAL
-+Rcp ! Reciprocal (similar to reflexive, but with another person. 'we see EACH OTHER')
++Rcp    ! Reciprocal (similar to reflexive, but with another person. 'we see EACH OTHER')
 +Reflex ! Reflexive
 
 !*****************************  UNINFLECTED PARTICLES  **********************************
 
 ! PRONOMINAL TYPE
-+Dem ! Demonstrative (can't take bound morphemes, but can only take case suffixes)
++Dem  ! Demonstrative (can't take bound morphemes, but can only take case suffixes)
 +Ipro ! Interrogative pronoun (who, what, when, where, why)
 
 !******************************  SYNTACTIC FUNCTIONS  ***********************************
 
 ! SYNTACTIC FUNCTIONS
-+E ! Extension to core (indirect object)
++E   ! Extension to core (indirect object)
 +Foc ! Focus (places emphasis on something. In English it's with tone and represented by italics)
-+Io ! Indirect object (different perspective than extension to core)
++Io  ! Indirect object (different perspective than extension to core)
 +Obj ! Direct object (what a noun becomes if it has the accusative case affixed to it)
 
 !*****************************  MISCELLANEOUS FEATURES  *********************************
 
 +Approx ! Approximative (means 'almost'), goes with nouns and stative verbs like "be" section 3.5 to find stative verbs
-+Lim ! Limiter
-+Neg ! Negative
-+Nmlz ! Nominalizer (derivation, turns verbs to nouns)
-
++Lim    ! Limiter
++Neg    ! Negative
++Nmlz   ! Nominalizer (derivation, turns verbs to nouns)
 
 !********************************  FLAG DIACRITICS  *************************************
 
