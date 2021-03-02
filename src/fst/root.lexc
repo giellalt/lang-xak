@@ -57,7 +57,7 @@ Multichar_Symbols
 +Purp      ! Purposive (doing something on purpose 'I bought the cookies SO THE DOG WOULD EAT THEM')
 +Reas      ! Reason
 
-! MOOD
+! MOOD (Is this syntactic or morphological?)
 +Cnd  ! Conditional
 +Des  ! Desiderative ('He wants to')
 +Imp  ! Imperative
@@ -100,6 +100,11 @@ Multichar_Symbols
 
 !********************************  FLAG DIACRITICS  *************************************
 
+! If I use these, do I need to put on a tag to show the feature? Like +Sg even
+! if I put down the @U.NUM.SG@
+
+! Do I put alienable with possession? Or is it its own thing?
+
 @U.POSS.ALIEN@
 @U.POSS.INALIEN@
 @U.PERSON.1@
@@ -109,6 +114,7 @@ Multichar_Symbols
 @U.NUM.NONSG@
 @U.CLUS.INCLUSIVE@
 @U.CLUS.EXCLUSIVE@
+
 
 
 LEXICON Root
