@@ -1,6 +1,5 @@
 Multichar_Symbols
 
-
 ! POS
 +N ! Noun
 +V ! Verb
@@ -14,7 +13,7 @@ Multichar_Symbols
 +Ideo ! Ideophone
 +Pcle ! Particle
 
-
+!*************************************  NOUNS  ******************************************
 
 ! CASE
 +Abl ! Ablative - Direction ('off of')
@@ -29,17 +28,13 @@ Multichar_Symbols
 +Term ! Terminative - Something ends in space or time ('until 6pm', 'up to the house')
 
 ! NUMBER
-+Coll ! Collective
-+Pl ! Plural
-+Sg ! Singular
++Coll +Pl +Sg! Collective, Plural, Singular
 
 ! CLUSIVITY
-+Ex ! Exclusive
-+In ! Inclusive
++Ex +In ! Exclusive, Inclusive
 
 ! GENDER
-+Fem ! Feminine
-+Masc ! Masculine
++Fem +Masc ! Feminine, Masculine
 
 ! DIMINUTIVE
 +Dim ! Diminutive
@@ -47,15 +42,13 @@ Multichar_Symbols
 ! CLASSIFIER
 +Clf ! Classifier (lexical classification of nouns based on their properties)
 
-
+!*************************************  VERBS  ******************************************
 
 ! ASPECT
-+Hab ! Habitual
++Hab +Nhab ! Habitual, Non-habitual
 +Inch ! Inchoative - Beginning of a state ('start running')
 +Prog ! Progressive
-+Perf ! Perfective
-+Imp  ! Imperfective
-+Nhab ! Non-habitual
++Perf +Imp ! Perfective, Imperfective
 +Perm ! Permanent (entering the permanent state of something)
 +Purp ! Purposive (doing something on purpose 'I bought the cookies SO THE DOG WOULD EAT THEM')
 +Reas ! Reason
@@ -71,20 +64,14 @@ Multichar_Symbols
 +Hort ! Hortative (similar to imperative, meaning 'let's' or 'you should')
 
 ! TENSE
-+Fut ! Future
-+Past ! Past
-+Pres ! Present
-+Dist ! Distant
-+Near ! Near
++Past +Pres +Fut ! Past, Present, Future
++Near +Dist ! Near, Distant
 
 ! PERSON
-+1 ! First person
-+2 ! Second person
-+3 ! Third person
++1 +2 +3! First person, Second person, Third person
 
 ! TRANSITIVITY
-+Trans ! Transitive
-+Intr ! Intransitive
++Trans +Intr ! Transitive, Intransitive
 
 ! CIRCUMVENTION
 +Circum ! Circumventing motion (literally 'meandering around')
@@ -93,14 +80,13 @@ Multichar_Symbols
 +Rcp ! Reciprocal (similar to reflexive, but with another person. 'we see EACH OTHER')
 +Reflex ! Reflexive
 
+!*****************************  UNINFLECTED PARTICLES  **********************************
 
-
-! UNINFLECTED PARTICLES
 ! PRONOMINAL TYPE
 +Dem ! Demonstrative (can't take bound morphemes, but can only take case suffixes)
 +Ipro ! Interrogative pronoun (who, what, when, where, why)
 
-
+!******************************  SYNTACTIC FUNCTIONS  ***********************************
 
 ! SYNTACTIC FUNCTIONS
 +E ! Extension to core (indirect object)
@@ -108,16 +94,15 @@ Multichar_Symbols
 +Io ! Indirect object (different perspective than extension to core)
 +Obj ! Direct object (what a noun becomes if it has the accusative case affixed to it)
 
+!*****************************  MISCELLANEOUS FEATURES  *********************************
 
-
-! MISCELLANEOUS FEATURES
 +Approx ! Approximative (means 'almost'), goes with nouns and stative verbs like "be" section 3.5 to find stative verbs
 +Lim ! Limiter
 +Neg ! Negative
 +Nmlz ! Nominalizer (derivation, turns verbs to nouns)
 
 
-! FLAG DIACRITICS
+!********************************  FLAG DIACRITICS  *************************************
 
 @U.POSS.ALIEN@
 @U.POSS.INALIEN@
@@ -128,7 +113,6 @@ Multichar_Symbols
 @U.NUM.NONSG@
 @U.CLUS.INCLUSIVE@
 @U.CLUS.EXCLUSIVE@
-
 
 
 LEXICON Root
