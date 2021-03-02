@@ -1,8 +1,33 @@
-LEXICON Nouns
-@U.POSS.INALIEN@:te@U.POSS.INALIEN@
-@U.POSS.INALIEN@:e@U.POSS.INALIEN@
-@U.POSS.INALIEN@:teke@U.POSS.INALIEN@
-@U.POSS.INALIEN@:tse@U.POSS.INALIEN@
-@U.POSS.INALIEN@:noʔo@U.POSS.INALIEN@
+LEXICON Nouns ! Not the actual nouns. Just a template
+AlPrefixes ;
+AlN ;
+InalPrefixes ;
+InalN ;
 
-LEXICON N_Prefixes
+LEXICON AlPrefixes ! Alienable prefixes
+1Sg-:te- AlN ;
+1Nsg.excl-:teke- AlN;
+1Nsg.incl-:tse- AlN;
+2Sg-:e- AlN ;
+2Nsg-:e- AlN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
+3Sg-:e- AlN ;
+3Nsg-:tse- AlN ;
+
+LEXICON AlN
+kidialu Num "canoe";
+
+LEXICON InalPrefixes
+1Sg-:te- InalN ;
+! TODO
+
+LEXICON InalN
+june Num "mother";
+
+LEXICON Num
+-Sg:-%0 Case ;
+-Pl:-itse Case ;
+! Ignore collective for now
+
+LEXICON Case
+-Dat:-le # ;
+# ;
