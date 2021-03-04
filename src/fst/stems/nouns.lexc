@@ -14,14 +14,36 @@ LEXICON AlPrefixes ! Alienable prefixes
 3Nsg-:tse- AlN ;
 
 LEXICON AlN
-kidialu Num "canoe";
+kidialu Num "canoe" ;
+uʔsi Num "other" ;
+naʔme Num "water" ; ! are all nouns either alienable or inalienable? or do I need to make a LEXICON of one that's neither?
+mekania Num "flood" ;
+waʔpite Num "sky" ;
+mine Num "house" ;
+adiata Num "place.below" ;
+sapnawi Num "cloud"
+butsi Num "leaf" ;
+baʔi Num "lake" ;
+menehe Num "paca" ; ! animal native to the area
+buʔte Num "ground" ;
+keʔle Num "sun" ; ! in one case, "sun" is compounded with "moon". Do I need to make a recursive continuation class to allow compounding?
+ia Num "moon" ;
 
 LEXICON InalPrefixes
 1Sg-:te- InalN ;
-! TODO
+1Nsg.excl-:teke- InalN;
+1Nsg.incl-:tse- InalN;
+2Sg-:e- InalN ;
+2Nsg-:e- InalN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
+3Sg-:%0- InalN ;
+3Nsg-:tse- InalN ;
 
 LEXICON InalN
 june Num "mother";
+eneʔmu Num "brother" ;
+dute Num "tongue" ;
+watsi Num "mouth" ;
+ete Num "lip" ; ! when paired with "lake" it can mean "banks"
 
 LEXICON Num
 -Sg:-%0 Case ;
@@ -29,5 +51,13 @@ LEXICON Num
 ! Ignore collective for now
 
 LEXICON Case
+-Abl:-leʔni # ;
+-Com.Sg:-siky # ;
+-Com.Pl:-daj # ;
 -Dat:-le # ;
+-El:-waʔni # ;
+-Iness:-wa # ;
+-Loc:-ʔsa # ;
+-Temp:-de # ;
+-Term:-ky # ;
 # ;
