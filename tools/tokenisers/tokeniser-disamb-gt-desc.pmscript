@@ -62,7 +62,7 @@ Define blank           Whitespace | incondform
                        | { } ! U+200A    Hair Space                 &#8202;
                        | {​}  ! U+200B    Zero-Width Space           &#8203;
                        | {‌}  ! U+200C    Zero Width Non-Joiner      &#8204;
-                       | {‍}  ! U+200D    Zero Width Joiner          &#8205; 
+                       | {‍}  ! U+200D    Zero Width Joiner          &#8205;
 !                      | {}  ! U+200E    Left-To-Right Mark         &#8206; ! Causes syntax error in pmatch
 !                      | {}  ! U+200F    Right-To-Left Mark         &#8207; ! Causes syntax error in pmatch
 !                      | {}  ! U+2028    Line separator             &#8232; ! Causes syntax error in pmatch
@@ -91,6 +91,7 @@ Define urlword          url                          LC([blank | #]) RC([blank |
 !! We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
 Define alphabet "a-z"
                |"A-Z"
+               |"0250-02AF"
                |{à}|{á}|{â}|{ã}|{ā}|{ă}|{ȧ}|{ä}|{ả}|{å}|{ǎ}|{ȁ}|{ȃ}|{ą}|{ạ}|{ḁ}
                |{æ}|{ǽ}|{ǣ}|{è}|{é}|{ê}|{ẽ}|{ē}|{ĕ}|{ė}|{ë}|{ẻ}|{ě}|{ȅ}|{ȇ}|{ẹ}
                |{ȩ}|{ę}|{ḙ}|{ḛ}|{ì}|{í}|{î}|{ĩ}|{ī}|{ī}|{ĭ}|{i̇}|{ï}|{ỉ}|{ǐ}|{ị}
