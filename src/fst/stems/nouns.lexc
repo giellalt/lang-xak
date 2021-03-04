@@ -1,17 +1,20 @@
 LEXICON Nouns ! Not the actual nouns. Just a template
 AlPrefixes ;
-AlN ;
+@U.POSS.NO@ AlN ;
 InalPrefixes ;
-InalN ;
+@U.POSS.NO@ InalN ;
 
 LEXICON AlPrefixes ! Alienable prefixes
-1Sg-:te- AlN ;
-1Nsg.excl-:teke- AlN;
-1Nsg.incl-:tse- AlN;
-2Sg-:e- AlN ;
-2Nsg-:e- AlN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
-3Sg-:e- AlN ;
-3Nsg-:tse- AlN ;
+@U.POSS.1Sg@:@U.POSS.1Sg@te- AlN ;
+@U.POSS.1Nsg@@U.CLUS.EXCL@:@U.POSS.1Nsg@@U.CLUS.EXCL@teke- AlN;
+@U.POSS.1Nsg@@U.CLUS.INCL@:@U.POSS.1Nsg@@U.CLUS.INCL@tse- AlN;
+@U.POSS.2Sg@:@U.POSS.2Sg@e- AlN ;
+@U.POSS.1Nsg@:@U.POSS.1Nsg@e- AlN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
+@U.POSS.3Sg@:@U.POSS.3Sg@e- AlN ;
+@U.POSS.3Nsg@:@U.POSS.3Nsg@tse- AlN ;
+
+!!€gt-desc: alienable
+te-kidialu-itse-daj: kidialu+N+Pl+Com+Poss1Sg
 
 LEXICON AlN
 kidialu Num "canoe" ;
@@ -35,7 +38,7 @@ LEXICON InalPrefixes
 1Nsg.incl-:tse- InalN;
 2Sg-:e- InalN ;
 2Nsg-:e- InalN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
-3Sg-:%0- InalN ;
+3Sg-:- InalN ;
 3Nsg-:tse- InalN ;
 
 LEXICON InalN
@@ -46,18 +49,28 @@ watsi Num "mouth" ;
 ete Num "lip" ; ! when paired with "lake" it can mean "banks"
 
 LEXICON Num
--Sg:-%0 Case ;
--Pl:-itse Case ;
++Sg:- Singular_Case ;
++Pl:-itse Plural_Case ;
 ! Ignore collective for now
 
+LEXICON Singular_Case
++Com:-siky Poss_Tags ;
+Case ;
+
+LEXICON Plural_Case
++Com:-daj Poss_Tags ;
+Case ;
+
 LEXICON Case
--Abl:-leʔni # ;
--Com.Sg:-siky # ;
--Com.Pl:-daj # ;
--Dat:-le # ;
--El:-waʔni # ;
--Iness:-wa # ;
--Loc:-ʔsa # ;
--Temp:-de # ;
--Term:-ky # ;
++Abl:-leʔni # ;
++Dat:-le # ;
++El:-waʔni # ;
++Iness:-wa # ;
++Loc:-ʔsa # ;
++Temp:-de # ;
++Term:-ky # ;
 # ;
+
+LEXICON Poss_Tags
+@U.POSS.NO@ # ;
+@U.POSS.1Sg@+Poss1Sg:@U.POSS.1Sg@ # ;
