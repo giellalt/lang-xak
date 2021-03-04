@@ -13,9 +13,6 @@ LEXICON AlPrefixes ! Alienable prefixes
 @U.POSS.3Sg@:@U.POSS.3Sg@e- AlN ;
 @U.POSS.3Nsg@:@U.POSS.3Nsg@tse- AlN ;
 
-!!€gt-desc: alienable
-te-kidialu-itse-daj: kidialu+N+Pl+Com+Poss1Sg
-
 LEXICON AlN
 kidialu Num "canoe" ;
 uʔsi Num "other" ;
@@ -33,13 +30,13 @@ keʔle Num "sun" ; ! in one case, "sun" is compounded with "moon". Do I need to 
 ia Num "moon" ;
 
 LEXICON InalPrefixes
-1Sg-:te- InalN ;
-1Nsg.excl-:teke- InalN;
-1Nsg.incl-:tse- InalN;
-2Sg-:e- InalN ;
-2Nsg-:e- InalN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
-3Sg-:- InalN ;
-3Nsg-:tse- InalN ;
+@U.POSS.1Sg@:@U.POSS.1Sg@te- InalN ;
+@U.POSS.1Nsg@@U.CLUS.EXCL@:@U.POSS.1Nsg@@U.CLUS.EXCL@teke- InalN;
+@U.POSS.1Nsg@@U.CLUS.INCL@:@U.POSS.1Nsg@@U.CLUS.INCL@tse- InalN;
+@U.POSS.2Sg@:@U.POSS.2Sg@e- InalN ;
+@U.POSS.1Nsg@:@U.POSS.1Nsg@e- InalN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
+@U.POSS.3Sg@:@U.POSS.3Sg@-%0 InalN ;
+@U.POSS.3Nsg@:@U.POSS.3Nsg@tse- InalN ;
 
 LEXICON InalN
 june Num "mother";
@@ -49,7 +46,7 @@ watsi Num "mouth" ;
 ete Num "lip" ; ! when paired with "lake" it can mean "banks"
 
 LEXICON Num
-+Sg:- Singular_Case ;
++Sg:-%0 Singular_Case ;
 +Pl:-itse Plural_Case ;
 ! Ignore collective for now
 
@@ -74,3 +71,8 @@ LEXICON Case
 LEXICON Poss_Tags
 @U.POSS.NO@ # ;
 @U.POSS.1Sg@+Poss1Sg:@U.POSS.1Sg@ # ;
+
+!Tests
+
+!!€gt-desc: alienable
+te-kidialu-itse-daj: kidialu+N+Pl+Com+Poss1Sg
