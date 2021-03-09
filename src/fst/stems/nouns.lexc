@@ -1,15 +1,15 @@
 LEXICON Nouns ! Not the actual nouns. Just a template
 AlPrefixes ;
-@U.POSS.NO@ AlN ;
+@U.POSS.NONE@ AlN ;
 InalPrefixes ;
-@U.POSS.NO@ InalN ;
+@U.POSS.NONE@ InalN ;
 
 LEXICON AlPrefixes ! Alienable prefixes
 @U.POSS.1Sg@:@U.POSS.1Sg@te- AlN ;
 @U.POSS.1Nsg@@U.CLUS.EXCL@:@U.POSS.1Nsg@@U.CLUS.EXCL@teke- AlN;
 @U.POSS.1Nsg@@U.CLUS.INCL@:@U.POSS.1Nsg@@U.CLUS.INCL@tse- AlN;
 @U.POSS.2Sg@:@U.POSS.2Sg@e- AlN ;
-@U.POSS.1Nsg@:@U.POSS.1Nsg@e- AlN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
+@U.POSS.2Nsg@:@U.POSS.1Nsg@e- AlN ; ! Only if it has -noʔo at the end. Figure out how to do circumfixes
 @U.POSS.3Sg@:@U.POSS.3Sg@e- AlN ;
 @U.POSS.3Nsg@:@U.POSS.3Nsg@tse- AlN ;
 
@@ -69,7 +69,7 @@ LEXICON Case
 # ;
 
 LEXICON Poss_Tags
-@U.POSS.NO@ # ;
+@U.POSS.NONE@ # ;
 @U.POSS.1Sg@+Poss1Sg:@U.POSS.1Sg@ # ;
 
 !Tests

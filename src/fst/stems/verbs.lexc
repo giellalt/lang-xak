@@ -4,38 +4,38 @@ LEXICON Verbs
 Objects ;
 
 LEXICON Object
-1Sg-:te- Subject;
++1Sg:te- Subject;
 ! TODO
 
 LEXICON Subject
-1Sg-:te- V;
++1Sg:te- V;
 
 LEXICON V
 niu Evidence "cut" ;
 
 LEXICON Evidence
--Nfirsth:-nia Tense ;
--Firsth:-tsa Tense ;
++Nfirsth:-nia Tense ;
++Firsth:-tsa Tense ;
 Tense ;
 
 LEXICON Tense
--Dist.Pst:-mutsa Negation ;
--Rcnt.Pst:-nka Negation ;
--Pres:-%0 Negation ;
--Rcnt.Fut:-ba Negation ;
--Dist.Fut:-diba Negation ;
++DistPst:-mutsa Negation ;
++RcntPst:-nka Negation ;
++Pres:-%0 Negation ;
++RcntFut:-ba Negation ;
++DistFut:-diba Negation ;
 
 LEXICON Negation
--Neg:-ʔa Aspect ;
++Neg:-ʔa Aspect ;
 Aspect ;
 
 LEXICON Aspect
--Pfv:-dia Mood;
++Pfv:-dia Mood;
 Mood ;
 
 LEXICON Mood
--Imp:-kɨse # ;
--Hort:-kada # ;
--Cond:-wake # ;
--Purp:-bana # ;
++Imp:-kɨse # ;
++Hort:-kada # ;
++Cond:-wake # ;
++Purp:-bana # ;
 # ;
