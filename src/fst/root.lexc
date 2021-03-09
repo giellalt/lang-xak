@@ -1,6 +1,49 @@
 Multichar_Symbols
 
-+wow
+! NOUNS
+
+@U.POSS.NONE@
+@U.POSS.1Sg@
+@U.POSS.1Nsg@
+@U.POSS.2Sg@
+@U.POSS.2Nsg@ ! I had it as 1Nsg at first, but that might have been a mistake
+@U.POSS.3Sg@
+@U.POSS.3Nsg@
+@U.CLUS.EXCL@
+@U.CLUS.INCL@! I don't see where it makes a union with another clusivity flag
+
++Sg +Pl
+
++Abl
++Com
++Dat
++El
++Iness
++Loc
++Temp
++Term
+
+! VERBS
+
++1Sg
+
++Nfirsth
++Firsth
+
++DistPst
++RcntPst
++Pres
++RcntFut
++DistFut
+
++Neg
+
++Pfv
+
++Imp
++Hort
++Cond
++Purp
 
 LEXICON Root
 ! Adjective
