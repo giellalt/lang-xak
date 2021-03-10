@@ -21,7 +21,7 @@ mekania Num "flood" ;
 waʔpite Num "sky" ;
 mine Num "house" ;
 adiata Num "place.below" ;
-sapnawi Num "cloud"
+sapnawi Num "cloud" ;
 butsi Num "leaf" ;
 baʔi Num "lake" ;
 menehe Num "paca" ; ! animal native to the area
@@ -74,7 +74,7 @@ LEXICON Poss_Tags
 @U.POSS.1Nsg@@U.CLUS.EXCL@+Poss1Nsg+Excl:@U.POSS.1Nsg@@U.CLUS.EXCL@ # ;
 @U.POSS.1Nsg@@U.CLUS.INCL@+Poss1Nsg+Incl:@U.POSS.1Nsg@@U.CLUS.INCL@ # ;
 @U.POSS.2Sg@+Poss2Sg:@U.POSS.2Sg@ # ;
-@U.POSS.2Nsg@+Poss2Nsg:@U.POSS.1Nsg@ # ;
+@U.POSS.2Nsg@+Poss2Nsg:@U.POSS.2Nsg@ # ;
 @U.POSS.3Sg@+Poss3Sg:@U.POSS.3Sg@ # ;
 @U.POSS.3Nsg@+Poss3Nsg:@U.POSS.3Nsg@ # ;
 
