@@ -2,6 +2,13 @@ Multichar_Symbols
 
 ! NOUNS
 
++Poss1Sg
++Poss1Nsg
++Poss2Sg
++Poss2Nsg
++Poss3Sg
++Poss3Nsg
+
 @U.POSS.NONE@
 @U.POSS.1Sg@
 @U.POSS.1Nsg@
@@ -14,14 +21,17 @@ Multichar_Symbols
 
 +Sg +Pl
 
-+Abl
-+Com
-+Dat
-+El
-+Iness
-+Loc
-+Temp
-+Term
++Abl   ! Ablative
++Com   ! Comitative
++Dat   ! Dative
++El    ! Elative
++Iness ! Inessive
++Loc   ! Locative
++Temp  ! Temporal
++Term  ! Terminative
+
++Incl
++Excl
 
 ! VERBS
 
@@ -38,12 +48,12 @@ Multichar_Symbols
 
 +Neg
 
-+Pfv
++Pfv ! Perfective
 
-+Imp
-+Hort
-+Cond
-+Purp
++Imp  ! Imperative
++Hort ! Hortative
++Cond ! Conditional
++Purp ! Purposive
 
 LEXICON Root
 ! Adjective
