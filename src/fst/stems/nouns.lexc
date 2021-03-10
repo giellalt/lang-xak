@@ -46,8 +46,8 @@ watsi Num "mouth" ;
 ete Num "lip" ; ! when paired with "lake" it can mean "banks"
 
 LEXICON Num
-+Sg: Singular_Case ;
-+Pl:itse Plural_Case ;
++N+Sg: Singular_Case ;
++N+Pl:itse Plural_Case ;
 ! Ignore collective for now
 
 LEXICON Singular_Case
@@ -59,14 +59,14 @@ LEXICON Plural_Case
 Case ;
 
 LEXICON Case
-+Abl:leʔni # ;
-+Dat:le # ;
-+El:waʔni # ;
-+Iness:wa # ;
-+Loc:ʔsa # ;
-+Temp:de # ;
-+Term:ky # ;
-# ;
++Abl:leʔni Poss_Tags ;
++Dat:le Poss_Tags ;
++El:waʔni Poss_Tags ;
++Iness:wa Poss_Tags ;
++Loc:ʔsa Poss_Tags ;
++Temp:de Poss_Tags ;
++Term:ky Poss_Tags ;
+Poss_Tags ;
 
 LEXICON Poss_Tags
 @U.POSS.NONE@ # ;
@@ -80,8 +80,9 @@ LEXICON Poss_Tags
 
 !Tests
 
-!!€gtdesc: alienable
+!!€gt-desc: alienable
 !!€ tekidialuitsedaj: kidialu+N+Pl+Com+Poss1Sg
-!!€ tsemineitseleʔni
+!!€ tsemineitseleʔni: mine+N+Pl+Abl+Poss1Nsg+Incl
 
-!!€gtdesc: inalienable
+!!€gt-desc: inalienable
+!!€ fix me: later
