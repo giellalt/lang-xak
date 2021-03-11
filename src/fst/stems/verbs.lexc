@@ -12,6 +12,7 @@ LEXICON Subject
 
 LEXICON V
 niu Evidence "cut" ;
+milanɨ Evidence "count" ;
 
 LEXICON Evidence
 +Nfirsth:nia Tense ;
@@ -31,6 +32,7 @@ Aspect ;
 
 LEXICON Aspect
 +Pfv:dia Mood;
++Ipfv:dbena Mood;
 Mood ;
 
 LEXICON Mood

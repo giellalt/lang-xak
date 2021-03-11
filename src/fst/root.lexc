@@ -59,6 +59,7 @@ Multichar_Symbols
 +Neg
 
 +Pfv ! Perfective
++Ipfv ! Imperfective
 
 +Imp  ! Imperative
 +Hort ! Hortative
@@ -68,7 +69,7 @@ Multichar_Symbols
 LEXICON Root
 ! Adjective
 ! Adverb
-! onjunction
+! Conjunction
 ! Ideophone
 ! Interjection
 Nouns ; ! Noun

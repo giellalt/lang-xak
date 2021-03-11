@@ -9,7 +9,7 @@ LEXICON AlPrefixes ! Alienable prefixes
 @U.POSS.1Nsg@@U.CLUS.EXCL@:@U.POSS.1Nsg@@U.CLUS.EXCL@teke AlN;
 @U.POSS.1Nsg@@U.CLUS.INCL@:@U.POSS.1Nsg@@U.CLUS.INCL@tse AlN;
 @U.POSS.2Sg@:@U.POSS.2Sg@e AlN ;
-@U.POSS.2Nsg@:@U.POSS.1Nsg@e AlN ; ! Only if it has noʔo at the end. Figure out how to do circumfixes
+@U.POSS.2Nsg@:@U.POSS.2Nsg@e AlN ; ! noʔo is part of circumfix, but is a pronominal plural suffix?
 @U.POSS.3Sg@:@U.POSS.3Sg@e AlN ;
 @U.POSS.3Nsg@:@U.POSS.3Nsg@tse AlN ;
 
@@ -28,13 +28,17 @@ menehe Num "paca" ; ! animal native to the area
 buʔte Num "ground" ;
 keʔle Num "sun" ; ! in one case, "sun" is compounded with "moon". Do I need to make a recursive continuation class to allow compounding?
 ia Num "moon" ;
+saju Num "salt" ;
+maʔasɨʔ Num "boy" ;
+kyʔte Num "egg" ; ! might be a collective group, so no plural?
+ekatsu Num "horn" ;
 
 LEXICON InalPrefixes
 @U.POSS.1Sg@:@U.POSS.1Sg@te InalN ;
 @U.POSS.1Nsg@@U.CLUS.EXCL@:@U.POSS.1Nsg@@U.CLUS.EXCL@teke InalN;
 @U.POSS.1Nsg@@U.CLUS.INCL@:@U.POSS.1Nsg@@U.CLUS.INCL@tse InalN;
 @U.POSS.2Sg@:@U.POSS.2Sg@e InalN ;
-@U.POSS.1Nsg@:@U.POSS.1Nsg@e InalN ; ! Only if it has noʔo at the end. Figure out how to do circumfixes
+@U.POSS.2Nsg@:@U.POSS.2Nsg@e InalN ; ! Only if it has noʔo at the end. Figure out how to do circumfixes
 @U.POSS.3Sg@:@U.POSS.3Sg@ InalN ;
 @U.POSS.3Nsg@:@U.POSS.3Nsg@tse InalN ;
 
@@ -77,12 +81,3 @@ LEXICON Poss_Tags
 @U.POSS.2Nsg@+Poss2Nsg:@U.POSS.2Nsg@ # ;
 @U.POSS.3Sg@+Poss3Sg:@U.POSS.3Sg@ # ;
 @U.POSS.3Nsg@+Poss3Nsg:@U.POSS.3Nsg@ # ;
-
-!Tests
-
-!!€gt-desc: alienable
-!!€ tekidialuitsedaj: kidialu+N+Pl+Com+Poss1Sg
-!!€ tsemineitseleʔni: mine+N+Pl+Abl+Poss1Nsg+Incl
-
-!!€gt-desc: inalienable
-!!€ fix me: later

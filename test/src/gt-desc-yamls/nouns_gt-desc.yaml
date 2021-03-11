@@ -8,6 +8,8 @@ Config:
     App: lookup
 
 Tests:
-  Noun - alienable : # -m animate noun
-    kidialu+N+Pl+Com+Poss1Sg: tekidialuitsedaj
-    mine+N+Pl+Abl+Poss1Nsg+Incl: tsemineitseleʔni
+  Noun - alienable :
+    kidialu+N+Pl+Com+Poss1Sg: tekidialuitsedaj # kidialu = 'canoe'
+    mine+N+Pl+Abl+Poss1Nsg+Incl: tsemineitseleʔni # mine = 'house'
+    waʔpite+N+Sg+Abl: waʔpiteleʔni # waʔpite = 'sky'
+    uʔsi+N+Pl+Com: uʔsiitsedaj # uʔsi = 'other'
