@@ -16,22 +16,86 @@ LEXICON AlPrefixes ! Alienable prefixes
 LEXICON AlN
 kidialu Num "canoe" ;
 uʔsi Num "other" ;
-naʔme Num "water" ; ! are all nouns either alienable or inalienable? or do I need to make a LEXICON of one that's neither?
+naʔme Num "water/rain" ;
 mekania Num "flood" ;
 waʔpite Num "sky" ;
-mine Num "house" ;
-adiata Num "place.below" ;
+mine Num "house/honey" ;
+adiata Num "place below" ;
 sapnawi Num "cloud" ;
 butsi Num "leaf" ;
 baʔi Num "lake" ;
 menehe Num "paca" ; ! animal native to the area
 buʔte Num "ground" ;
-keʔle Num "sun" ; ! in one case, "sun" is compounded with "moon". Do I need to make a recursive continuation class to allow compounding?
-ia Num "moon" ;
+keʔle Num "sun" ; ! shows up as 'keʔle-ia' and as 'keʔl-ia'?
+ia Num "moon/month";
 saju Num "salt" ;
-maʔasɨʔ Num "boy" ;
-kyʔte Num "egg" ; ! might be a collective group, so no plural?
+maʔasɨʔ Num "boy" ; ! also shows up as 'masa'
+kyʔte Num "egg" ; ! also shows up as 'gyʔte'
 ekatsu Num "horn" ;
+taba Num "stick" ;
+tsimala Num "bow" ; ! can also mean 'arrow', even though 'arrow' is also shown as 'tsimal'
+line Num "stone" ;
+wike Num "mountain" ;
+tsimal Num "arrow" ;
+bewan Num "forest" ;
+metsi Num "flower" ;
+jauku Num "star" ;
+palu Num "banana" ;
+ine Num "louse" ;
+ikisu Num "night" ;
+ikilu Num "path" ;
+lemeketsi Num "root" ; ! also shows up as 'lemikitsi'
+nyhe Num "fire" ;
+bike Num "hummingbird" ;
+taba Num "stick" ;
+joʔwi Num "dog" ;
+juɁwi Num "jaguar" ;
+jukude Num "person/man" ;
+lamamu Num "dawn" ;
+jaule Num "opossum" ;
+lemeki Num "land turtle" ;
+kulalu Num "cage" ;
+tʃimu Num "bark" ; ! 'tʃ' wasn't listed in the phonemes of the language
+buntsi Num "pot" ;
+kaɸe Num "coffee" ;
+budesku Num "tamandua" ; ! native animal
+mesiky Num "manioc" ; ! also shows up as 'mesyky' - yuca root
+dyɁy Num "tapir" ; ! native animal
+liana Num "curassow" ; ! native animal
+jabi Num "agouti" ; ! native animal
+lipina Num "knife" ;
+itaka Num "bird" ;
+ajn Num "fish" ;
+patele Num "glass" ;
+mete Num "ash" ;
+aliwi Num "alligator" ;
+demu Num "leaf" ; ! also 'butsi'
+butʃi Num "forest" ; ! also 'bewan'
+paj Num "air" ;
+ne Num "cut" ;
+by Num "bite" ;
+pena Num "dwelling" ;
+kulewa Num "parrot" ;
+kawe Num "macaw" ;
+batsina Num "rope" ;
+uba Num "tree" ;
+eke Num "hole" ;
+nabuɁne Num "woman" ;
+malebe Num "monkey" ;
+masa Num "child" ; ! also similar to 'boy'
+lasaba Num "male" ;
+nelabana Num "female" ;
+bute Num "river" ;
+masina Num "earthworm" ;
+kajuwana Num "intestinal worm" ;
+jatsi Num "manioc bread" ;
+ekyny Num "grease" ;
+metsyna Num "wind" ;
+kute Num "feather" ; ! inalienable to a bird, but not a person. Where does it go?
+netu Num "tail" ; ! ^^
+we Num "sleep" ;
+lewene Num "peccary" ;
+lona Num "snake" ; ! ended on section 5.3
 
 LEXICON InalPrefixes
 @U.POSS.1Sg@:@U.POSS.1Sg@te InalN ;
@@ -43,11 +107,25 @@ LEXICON InalPrefixes
 @U.POSS.3Nsg@:@U.POSS.3Nsg@tse InalN ;
 
 LEXICON InalN
-june Num "mother";
+june Num "mother"; ! also shows up as 'une'
 eneʔmu Num "brother" ;
 dute Num "tongue" ;
 watsi Num "mouth" ;
 ete Num "lip" ; ! when paired with "lake" it can mean "banks"
+baskate Num "knee" ;
+batsi Num "leg" ;
+nabuɁne Num "wife" ;
+basku Num "foot" ;
+tsi Num "tail" ;
+nabaɁleke Num "husband" ;
+pi Num "nose" ;
+sukute Num "eye" ;
+tsimu Num "skin" ;
+isiku Num "hand" ;
+leme Num "blood" ;
+isa Num "liver" ;
+naba Num "daughter" ;
+entse Num "name" ;
 
 LEXICON Num
 +N+Sg: Singular_Case ;

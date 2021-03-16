@@ -9,6 +9,7 @@ Multichar_Symbols
 ! POS
 
 +N
++V
 
 ! NOUNS
 
@@ -65,6 +66,8 @@ Multichar_Symbols
 +Hort ! Hortative
 +Cond ! Conditional
 +Purp ! Purposive
+
+! 1,580 words in the entire database
 
 LEXICON Root
 ! Adjective
