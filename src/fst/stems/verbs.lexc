@@ -1,17 +1,37 @@
 ! 1. Morphemes indicating TAME are placed on the motion verb rather
 ! than on both verbs in a serial verb clause?
 
-! THIS IS ONLY FOR PVERBS!
+! 1+2 first-person inclusive including the speaker and the addressee and
+!   excluding others
+! 1+3 first-person exclusive
+! 1+2+3 first-person inclusive including the speaker, the addressee, and at least one
+!   other
 
-LEXICON Verbs
-Objects ;
+
+LEXICON Active_Verbs
++Act Objects ;
+
+LEXICON Stative_Verbs
++Stat Stative_Subject ;
 
 LEXICON Object
-+1Sg:te Subject;
++1Sg:te Active_Subject;
 ! TODO
 
-LEXICON Subject
-+1Sg:te V; ! These seem to have the same prefixes as the possessive nouns
+LEXICON Active_Subject
+@U.SUBJ.1SG@:@U.SUBJ.1SG@te V;
+@U.SUBJ.12DL@@U.CLUS.INCL@:@U.SUBJ.12DL@@U.CLUS.INCL@tse V;
+@U.SUBJ.12PL@@U.CLUS.INCL@:@U.SUBJ.12PL@@U.CLUS.INCL@tse V; ! add nuʔu suffix
+@U.SUBJ.13DL@@U.CLUS.EXCL@:@U.SUBJ.13DL@@U.CLUS.EXCL@teke V;
+@U.SUBJ.13PL@@U.CLUS.EXCL@:@U.SUBJ.13PL@@U.CLUS.EXCL@teke V; ! add nuʔu suffix
+@U.SUBJ.123PL@@U.CLUS.INCL@:@U.SUBJ.123PL@@U.CLUS.INCL@ V; ! add nuʔu suffix
+@U.SUBJ.2SG@:@U.SUBJ.2SG@ke V;
+@U.SUBJ.2PL@:@U.SUBJ.2PL@ V; ! add nuʔu suffix
+@U.SUBJ.3SG@:@U.SUBJ.3SG@ V;
+@U.SUBJ.3PL@:@U.SUBJ.3PL@tse V;
+@U.SUBJ.3PL@@U.COLL.YES@:@U.SUBJ.3PL@@U.COLL.YES@tse V; ! add pu after the stem
+
+LEXICON Stative_Subject
 
 LEXICON V
 niu Evidence "cut" ;
@@ -30,7 +50,9 @@ LEXICON Tense
 +DistFut:diba Negation ;
 
 LEXICON Negation
-+Neg:ʔa Aspect ;
+@U.VERB.ACT@+Neg:ʔa Aspect ;
+@U.VERB.ACT@+Neg:bala Aspect ;
+@U.VERB.STAT@+Neg:ʔa Aspect ;
 Aspect ;
 
 LEXICON Aspect
@@ -39,8 +61,10 @@ LEXICON Aspect
 Mood ;
 
 LEXICON Mood
-+Imp:kɨse # ;
-+Hort:kada # ;
-+Cond:wake # ;
-+Purp:bana # ;
++Imp:kɨse  Affixes ;
++Hort:kada Affixes ;
++Cond:wake Affixes ;
++Purp:bana Affixes ;
 # ;
+
+LEXICON Affixes

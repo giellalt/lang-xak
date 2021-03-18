@@ -19,21 +19,22 @@ uʔsi Num "other" ;
 naʔme Num "water/rain" ;
 mekania Num "flood" ;
 waʔpite Num "sky" ;
-mine Num "house/honey" ;
+mine Num "house" ;
+miʔne Num "honey" ;
 adiata Num "place below" ;
 sapnawi Num "cloud" ;
 butsi Num "leaf" ;
 baʔi Num "lake" ;
 menehe Num "paca" ; ! animal native to the area
 buʔte Num "ground" ;
-keʔle Num "sun" ; ! shows up as 'keʔle-ia' and as 'keʔl-ia'?
+keʔle Num "sun" ;
 ia Num "moon/month";
 saju Num "salt" ;
-maʔasɨʔ Num "boy" ; ! also shows up as 'masa'
-kyʔte Num "egg" ; ! also shows up as 'gyʔte'
+maʔasɨʔ Num "boy" ;
+kyʔte Num "egg" ;
 ekatsu Num "horn" ;
 taba Num "stick" ;
-tsimala Num "bow" ; ! can also mean 'arrow', even though 'arrow' is also shown as 'tsimal'
+tsimala Num "bow" ;
 line Num "stone" ;
 wike Num "mountain" ;
 tsimal Num "arrow" ;
@@ -44,7 +45,7 @@ palu Num "banana" ;
 ine Num "louse" ;
 ikisu Num "night" ;
 ikilu Num "path" ;
-lemeketsi Num "root" ; ! also shows up as 'lemikitsi'
+lemeketsi Num "root" ;
 nyhe Num "fire" ;
 bike Num "hummingbird" ;
 taba Num "stick" ;
@@ -55,7 +56,7 @@ lamamu Num "dawn" ;
 jaule Num "opossum" ;
 lemeki Num "land turtle" ;
 kulalu Num "cage" ;
-tʃimu Num "bark" ; ! 'tʃ' wasn't listed in the phonemes of the language
+tsimu Num "bark" ;
 buntsi Num "pot" ;
 kaɸe Num "coffee" ;
 budesku Num "tamandua" ; ! native animal
@@ -69,8 +70,8 @@ ajn Num "fish" ;
 patele Num "glass" ;
 mete Num "ash" ;
 aliwi Num "alligator" ;
-demu Num "leaf" ; ! also 'butsi'
-butʃi Num "forest" ; ! also 'bewan'
+demu Num "leaf" ;
+butʃi Num "forest" ;
 paj Num "air" ;
 ne Num "cut" ;
 by Num "bite" ;
@@ -82,7 +83,6 @@ uba Num "tree" ;
 eke Num "hole" ;
 nabuɁne Num "woman" ;
 malebe Num "monkey" ;
-masa Num "child" ; ! also similar to 'boy'
 lasaba Num "male" ;
 nelabana Num "female" ;
 bute Num "river" ;
@@ -91,8 +91,6 @@ kajuwana Num "intestinal worm" ;
 jatsi Num "manioc bread" ;
 ekyny Num "grease" ;
 metsyna Num "wind" ;
-kute Num "feather" ; ! inalienable to a bird, but not a person. Where does it go?
-netu Num "tail" ; ! ^^
 we Num "sleep" ;
 lewene Num "peccary" ;
 lona Num "snake" ; ! ended on section 5.3
@@ -107,7 +105,7 @@ LEXICON InalPrefixes
 @U.POSS.3Nsg@:@U.POSS.3Nsg@tse InalN ;
 
 LEXICON InalN
-june Num "mother"; ! also shows up as 'une'
+june Num "mother";
 eneʔmu Num "brother" ;
 dute Num "tongue" ;
 watsi Num "mouth" ;
@@ -126,6 +124,8 @@ leme Num "blood" ;
 isa Num "liver" ;
 naba Num "daughter" ;
 entse Num "name" ;
+kute Num "feather" ;
+netu Num "tail" ;
 
 LEXICON Num
 +N+Sg: Singular_Case ;
@@ -156,6 +156,6 @@ LEXICON Poss_Tags
 @U.POSS.1Nsg@@U.CLUS.EXCL@+Poss1Nsg+Excl:@U.POSS.1Nsg@@U.CLUS.EXCL@ # ;
 @U.POSS.1Nsg@@U.CLUS.INCL@+Poss1Nsg+Incl:@U.POSS.1Nsg@@U.CLUS.INCL@ # ;
 @U.POSS.2Sg@+Poss2Sg:@U.POSS.2Sg@ # ;
-@U.POSS.2Nsg@+Poss2Nsg:@U.POSS.2Nsg@ # ;
+@U.POSS.2Nsg@+Poss2Nsg:@U.POSS.2Nsg@nuʔu # ;
 @U.POSS.3Sg@+Poss3Sg:@U.POSS.3Sg@ # ;
 @U.POSS.3Nsg@+Poss3Nsg:@U.POSS.3Nsg@ # ;
