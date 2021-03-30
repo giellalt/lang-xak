@@ -65,6 +65,6 @@ LEXICON Mood
 +Hort:kada Affixes ;
 +Cond:wake Affixes ;
 +Purp:bana Affixes ;
-# ;
+Affixes;
 
 LEXICON Affixes
