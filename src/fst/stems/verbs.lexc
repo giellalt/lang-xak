@@ -7,15 +7,18 @@
 ! 1+2+3 first-person inclusive including the speaker, the addressee, and at least one
 !   other
 
+LEXICON Verbs
+Active_Verbs;
+Stative_Verbs;
 
 LEXICON Active_Verbs
-+Act Objects ;
+@U.VERB.ACT@ Object ;
 
 LEXICON Stative_Verbs
-+Stat Stative_Subject ;
+@U.VERB.STAT@ Stative_Subject ;
 
 LEXICON Object
-+1Sg:te Active_Subject;
+@U.OBJ.1SG@:@U.OBJ.1SG@te Active_Subject ;
 ! TODO
 
 LEXICON Active_Subject
@@ -34,8 +37,18 @@ LEXICON Active_Subject
 LEXICON Stative_Subject
 
 LEXICON V
-niu Evidence "cut" ;
-milanɨ Evidence "count" ;
+ate V_Tags "walk" ;
+niu V_Tags "cut" ;
+milanɨ V_Tags "count" ;
+
+LEXICON V_Tags
++V: Object_Tags ;
+
+LEXICON Object_Tags
+@U.OBJ.1SG@+1SgObj:@U.OBJ.1SG@ Subject_Tags ;
+
+LEXICON Subject_Tags
+@U.SUBJ.1SG@+1SgSubj:@U.SUBJ.1SG@ Evidence ;
 
 LEXICON Evidence
 +Nfirsth:nia Tense ;
@@ -48,11 +61,12 @@ LEXICON Tense
 +Pres: Negation ;
 +RcntFut:ba Negation ;
 +DistFut:diba Negation ;
+Negation ;
 
 LEXICON Negation
-@U.VERB.ACT@+Neg:ʔa Aspect ;
-@U.VERB.ACT@+Neg:bala Aspect ;
-@U.VERB.STAT@+Neg:ʔa Aspect ;
++Neg:ʔa Aspect ;
++Neg:bala Aspect ;
++Neg:ʔa Aspect ;
 Aspect ;
 
 LEXICON Aspect
@@ -61,10 +75,8 @@ LEXICON Aspect
 Mood ;
 
 LEXICON Mood
-+Imp:kɨse  Affixes ;
-+Hort:kada Affixes ;
-+Cond:wake Affixes ;
-+Purp:bana Affixes ;
-Affixes;
-
-LEXICON Affixes
++Imp:kɨse  # ;
++Hort:kada # ;
++Cond:wake # ;
++Purp:bana # ;
+# ;

@@ -9,9 +9,4 @@ Config:
 
 Tests:
   Verb - P-Verb :
-    ate+12Pl+Pfv: tseatenuʔudia
-
-Tests:
-  Verb - S-Verb :
-    bukulu+1Sg+DistPst+Pfv: bukulutemutsadia
-
+    ate+V+1SgSubj+Pfv: teatedia
