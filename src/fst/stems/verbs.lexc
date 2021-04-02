@@ -31,7 +31,7 @@ LEXICON Active_Subject
 @U.SUBJ.2SG@:@U.SUBJ.2SG@ke V;
 @U.SUBJ.2PL@:@U.SUBJ.2PL@ V; ! add nuʔu suffix
 @U.SUBJ.3SG@:@U.SUBJ.3SG@ V;
-@U.SUBJ.3PL@:@U.SUBJ.3PL@tse V;
+@U.SUBJ.3PL@@U.COLL.NO@:@U.SUBJ.3PL@@U.COLL.NO@tse V;
 @U.SUBJ.3PL@@U.COLL.YES@:@U.SUBJ.3PL@@U.COLL.YES@tse V; ! add pu after the stem
 
 LEXICON Stative_Subject
