@@ -19,6 +19,7 @@ LEXICON Stative_Verbs
 
 LEXICON Object
 @U.OBJ.1SG@:@U.OBJ.1SG@te Active_Subject ;
+Active_Subject;
 ! TODO
 
 LEXICON Active_Subject
@@ -47,6 +48,7 @@ LEXICON V_Tags
 
 LEXICON Object_Tags
 @U.OBJ.1SG@+1SgObj:@U.OBJ.1SG@ Subject_Tags ;
+Subject_Tags ;
 
 LEXICON Subject_Tags
 @U.SUBJ.1SG@+1SgSubj:@U.SUBJ.1SG@ Evidence ;
@@ -62,7 +64,6 @@ LEXICON Tense
 +Pres: Negation ;
 +RcntFut:ba Negation ;
 +DistFut:diba Negation ;
-Negation ;
 
 LEXICON Negation
 +Neg:ʔa Aspect ;
