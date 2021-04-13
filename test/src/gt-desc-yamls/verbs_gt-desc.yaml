@@ -7,6 +7,6 @@ Config:
     Morph: ../../../src/analyser-gt-norm.xfst
     App: lookup
 
-# Tests:
-#   Verb - P-Verb :
-#     ate+V+1SgSubj+Pfv: teatedia
+Tests:
+  Verb - P-Verb :
+    ate+V+1SgSubj+Pfv: teatedia
