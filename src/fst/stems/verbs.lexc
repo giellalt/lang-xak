@@ -35,6 +35,7 @@ LEXICON Active_Subject
 @U.SUBJ.3PL@@U.COLL.YES@:@U.SUBJ.3PL@@U.COLL.YES@tse V; ! add pu after the stem
 
 LEXICON Stative_Subject
+something V_Tags ; !!!!TODO TODO TODO TODO TODO
 
 LEXICON V
 ate V_Tags "walk" ;
