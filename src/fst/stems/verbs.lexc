@@ -1,12 +1,3 @@
-! 1. Morphemes indicating TAME are placed on the motion verb rather
-! than on both verbs in a serial verb clause?
-
-! 1+2 first-person inclusive including the speaker and the addressee and
-!   excluding others
-! 1+3 first-person exclusive
-! 1+2+3 first-person inclusive including the speaker, the addressee, and at least one
-!   other
-
 LEXICON Verbs
 Active_Verbs;
 Stative_Verbs;
@@ -15,13 +6,15 @@ LEXICON Active_Verbs
 @U.VERB.ACT@ Object ;
 
 LEXICON Stative_Verbs
-@U.VERB.STAT@ Stative_Subject ;
+! @U.VERB.STAT@ Stative_Subject ;
+! I can't figure out the pattern to stative verbs. To be something
+! doesn't take a be verb. It just takes an adjective with TAME markers
+! but most adjectives require a be verb, like "be.good" so I have no idea.
 
 LEXICON Object
 @U.OBJ.1SG@:@U.OBJ.1SG@te Active_Subject ;
-
+@U.OBJ.2SG@:@U.OBJ.2SG@e Active_Subject ;
 Active_Subject;
-! TODO
 
 LEXICON Active_Subject
 @U.SUBJ.1SG@:@U.SUBJ.1SG@te V;
@@ -37,12 +30,30 @@ LEXICON Active_Subject
 @U.SUBJ.3PL@@U.COLL.YES@:@U.SUBJ.3PL@@U.COLL.YES@tse V; ! add pu after the stem
 
 LEXICON Stative_Subject
-something V_Tags ; !!!!TODO TODO TODO TODO TODO
+!
 
 LEXICON V
 ate V_Tags "walk" ;
 niu V_Tags "cut" ;
 milanɨ V_Tags "count" ;
+by V_Tags "bite" ;
+ni V_Tags "hear" ;
+ke V_Tags "eat" ;
+bokolo V_Tags "look.for" ;
+lawa V_Tags "scratch" ;
+tune V_Tags "wake.up" ;
+we V_Tags "sleep" ;
+mi V_Tags "drink" ;
+ina V_Tags "come" ;
+se V_Tags "sing" ;
+sipinu V_Tags "kill" ;
+ja V_Tags "lay.down" ;
+ma V_Tags "return" ;
+tsa V_Tags "warm" ;
+masa V_Tags "come.down" ;
+daj V_Tags "bring" ;
+kontsi V_Tags "wash" ;
+sibu V_Tags "speak" ;
 
 LEXICON V_Tags
 +V: Object_Tags ;
@@ -60,6 +71,9 @@ LEXICON Evidence
 Tense ;
 
 LEXICON Tense
+! Sometimes for future tense there's no morpheme, so it's the same as present tense
+! Also, verbs can go without tense and just have aspect, so I'm not sure
+! if that needs to get tagged for tense or not, and I have no idea how to do that
 +DistPst:mutsa Negation ;
 +RcntPst:nka Negation ;
 +Pres: Negation ;
@@ -67,6 +81,8 @@ LEXICON Tense
 +DistFut:diba Negation ;
 
 LEXICON Negation
+! To say "not today" you use "today" as a noun, then the negating morpheme. It shows up
+! under the verb section of the reference grammar
 +Neg:ʔa Aspect ;
 +Neg:bala Aspect ;
 +Neg:ʔa Aspect ;
