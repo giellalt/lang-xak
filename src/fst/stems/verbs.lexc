@@ -6,6 +6,7 @@ LEXICON Active_Verbs
 @U.VERB.ACT@ Object ;
 
 LEXICON Stative_Verbs
+# ;
 ! @U.VERB.STAT@ Stative_Subject ;
 ! I can't figure out the pattern to stative verbs. To be something
 ! doesn't take a be verb. It just takes an adjective with TAME markers
