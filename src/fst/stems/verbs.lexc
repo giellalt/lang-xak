@@ -34,29 +34,29 @@ LEXICON Stative_Subject
 # ;
 
 LEXICON V
-ate V_Tags "walk" ;
-niu V_Tags "cut" ;
-milanɨ V_Tags "count" ;
-by V_Tags "bite" ;
-ni V_Tags "hear" ;
-ke V_Tags "eat" ;
-bokolo V_Tags "look.for" ;
-lawa V_Tags "scratch" ;
-tune V_Tags "wake.up" ;
-we V_Tags "sleep" ;
-mi V_Tags "drink" ;
-ina V_Tags "come" ;
-se V_Tags "sing" ;
-sipinu V_Tags "kill" ;
-ja V_Tags "lay.down" ;
-ma V_Tags "return" ;
-tsa V_Tags "warm" ;
-masa V_Tags "come.down" ;
-daj V_Tags "bring" ;
-kontsi V_Tags "wash" ;
-sibu V_Tags "speak" ;
+ate Active_V_Tags "walk" ;
+niu Active_V_Tags "cut" ;
+milanɨ Active_V_Tags "count" ;
+by Active_V_Tags "bite" ;
+ni Active_V_Tags "hear" ;
+ke Active_V_Tags "eat" ;
+bokolo Active_V_Tags "look.for" ;
+lawa Active_V_Tags "scratch" ;
+tune Active_V_Tags "wake.up" ;
+we Active_V_Tags "sleep" ;
+mi Active_V_Tags "drink" ;
+ina Active_V_Tags "come" ;
+se Active_V_Tags "sing" ;
+sipinu Active_V_Tags "kill" ;
+ja Active_V_Tags "lay.down" ;
+ma Active_V_Tags "return" ;
+tsa Active_V_Tags "warm" ;
+masa Active_V_Tags "come.down" ;
+daj Active_V_Tags "bring" ;
+kontsi Active_V_Tags "wash" ;
+sibu Active_V_Tags "speak" ;
 
-LEXICON V_Tags
+LEXICON Active_V_Tags
 +V: Object_Tags ;
 
 LEXICON Object_Tags
