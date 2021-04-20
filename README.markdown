@@ -1,6 +1,10 @@
 The Maku morphology and tools
 ==========================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/issues)
+[![Build Status](https://github.com/giellalt/lang-xak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-xak/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-xak)](https://raw.githubusercontent.com/giellalt/lang-xak/develop/LICENSE)
+
 This repository contains finite state source files for the Maku language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under GPLv3
@@ -8,10 +12,6 @@ licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-xak/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/issues)
-[![Build Status](https://github.com/giellalt/lang-xak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-xak/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-xak)](https://raw.githubusercontent.com/giellalt/lang-xak/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-xak)
 for the Maku language by using the [Divvun Installer](http://divvun.no)
