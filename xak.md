@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -604,7 +604,8 @@ These were the set types.
 
 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-xak/blob/main/../src/cg3/functions.cg3)</small>
 
 
 
@@ -658,7 +659,8 @@ These were the set types.
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-xak/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Maku are read out, e.g.
@@ -674,3 +676,5 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-xak/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
