@@ -4,9 +4,9 @@
     * `phonetics/`
         * [txt2ipa.xfscript](src-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-xak/blob/main/src/phonetics/txt2ipa.xfscript))
     * `transcriptions/`
-        * [transcriptor-numbers-digit2text.lexc](src-transcriptions-transcriptor-numbers-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-xak/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc))
         * [transcriptor-abbrevs2text.lexc](src-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-xak/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc))
+        * [transcriptor-numbers-digit2text.lexc](src-transcriptions-transcriptor-numbers-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-xak/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc))
 * `tools/`
     * `tokenisers/`
-        * [tokeniser-gramcheck-gt-desc.pmscript](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-xak/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript))
         * [tokeniser-disamb-gt-desc.pmscript](tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-xak/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript))
+        * [tokeniser-gramcheck-gt-desc.pmscript](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-xak/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript))
