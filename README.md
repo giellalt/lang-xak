@@ -2,7 +2,7 @@ The Maku morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/issues)
-[![Build Status](https://github.com/giellalt/lang-xak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-xak/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-xak/main/badge.svg)](https://github.com/giellalt/lang-xak/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/blob/main/LICENSE)
 
 This repository contains finite state source files for the Maku language,
