@@ -2,7 +2,7 @@ The Maku morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-xak/main/badge.svg)](https://github.com/giellalt/lang-xak/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-xak/main/badge.svg)](https://github.com/giellalt/lang-xak/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-xak?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-xak?platform=mbile&channel=nightly)
