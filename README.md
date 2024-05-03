@@ -8,10 +8,13 @@ The Maku morphology and tools
 [![Doc Build Status](https://github.com/giellalt/lang-xak/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-xak/actions)
 [![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-xak/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-xak/main/latest)
 
-Download nightly / CI/CD zhfst files for testing:
+Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
+
 [![Windows](https://img.shields.io/badge/download%40latest-Windows--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-xak?platform=windows&channel=nightly)
 [![MacOS](https://img.shields.io/badge/download%40latest-macOS--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-xak?platform=macos&channel=nightly)
 [![Mobile](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-xak?platform=mobile&channel=nightly)
+
+__NB!!__ Note that the nightly / CI/CD installation packages are not tested for language quality, and might contain regressions and errors.
 
 This repository contains finite state source files for the Maku language,
 for building morphological analysers, proofing tools
