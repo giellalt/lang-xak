@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-xak?label=CI)](https://builds.giellalt.org/pipelines/lang-xak/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/maku1246)
 
 This page documents the work on the **Maku language model**. 
 
