@@ -4,15 +4,7 @@
 
 {% include_relative language-map.md %}
 
-<div class="badges" markdown="1">
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-xak%2Fgenerated%2Fdocs-data%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html) <br/>
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-xak%2Fgenerated%2Fdocs-data%2Ffst-lemmacount.json) <br/>
-[![Speller suggestion quality](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-xak%2Fgenerated%2Fdocs-data%2Fspeller-suggestions.json)](typosreport/) <br/>
-[![License](https://img.shields.io/github/license/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/blob/main/LICENSE) <br/>
-[![Issues](https://img.shields.io/github/issues/giellalt/lang-xak)](https://github.com/giellalt/lang-xak/issues) <br/>
-[![Build Status](https://builds.giellalt.org/api/badge/lang-xak?label=CI)](https://builds.giellalt.org/pipelines/lang-xak/builds/latest) <br/>
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/maku1246)
-</div>
+{% include language-badges.html glottolog_id="maku1246" %}
 
 Center location data taken from [Glottolog](https://glottolog.org/). Area extent is local data. Both can be adjusted if wrong - file a pull request!
 
